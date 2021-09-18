@@ -35,4 +35,8 @@ public class StudySpot extends Location {
         this.equipment = equipment;
     }
 
+    @Override
+    public String toString() {
+        return "Study Spot: " + super.toString();
+    }
 }
