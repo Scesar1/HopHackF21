@@ -4,52 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    tools:ignore="SpeakableTextPresentCheck">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#E2EEF8"
         android:backgroundTint="#004F7CAC"
         android:backgroundTintMode="src_atop"
-        tools:context=".SecondFragment">
+        tools:context=".SecondFragment" >
 
-        <Button
-            android:id="@+id/button_first4"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#ACD4FF"
-            android:fontFamily="@font/baloo_bhai"
-            android:shadowColor="#4F7CAC"
-            android:shadowDx="1"
-            android:shadowDy="3"
-            android:shadowRadius="1"
-            android:text="@string/entertainment"
-            android:textSize="40sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
+        <TableRow
+            android:layout_width="408dp"
+            android:layout_height="584dp"
+            app:constraint_referenced_tags="0"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="145dp">
 
-        <Button
-            android:id="@+id/button_first3"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#ACD4FF"
-            android:fontFamily="@font/baloo_bhai"
-            android:shadowColor="#4F7CAC"
-            android:shadowDx="1"
-            android:shadowDy="3"
-            android:shadowRadius="1"
-            android:text="@string/entertainment"
-            android:textSize="40sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.779" />
 
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:src="@drawable/silent_icon" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="138dp"
+                android:layout_height="128dp"
+                android:background="#00FFFFFF"
+                android:src="@drawable/quiet_icon" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:src="@drawable/loud_icon" />
+
+        </TableRow>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
