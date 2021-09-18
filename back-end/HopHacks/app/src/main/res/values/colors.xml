@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name= "screenBackground">#2196F3</color>
+    <color name = "green">#84dccf</color>
+    <color name = "blue">#4f7cac</color>
+    <color name= "pale">#e5d1d0</color>
+    <color name = "burgundy">#361d2e</color>
+    <color name = "rose">#a2666f</color>
 </resources>
