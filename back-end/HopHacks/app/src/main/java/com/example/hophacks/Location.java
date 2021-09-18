@@ -12,6 +12,7 @@ public class Location {
     protected int privacyScale;
     protected boolean vendingFood;
     protected boolean rsvp;
+    protected int volume;
 
     public Location() {
 
@@ -100,5 +101,13 @@ public class Location {
 
     public void setRsvp(boolean rsvp) {
         this.rsvp = rsvp;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
     }
 }
