@@ -1,0 +1,19 @@
+com/example/hophacks/SecondFragment.java
+ com.example.hophacks.SecondFragment
+ com.example.hophacks.SecondFragment$1
+com/example/hophacks/databinding/FragmentFirstBinding.java
+ com.example.hophacks.databinding.FragmentFirstBinding
+com/example/hophacks/databinding/ContentMainBinding.java
+ com.example.hophacks.databinding.ContentMainBinding
+com/example/hophacks/MainActivity.java
+ com.example.hophacks.MainActivity
+ com.example.hophacks.MainActivity$1
+com/example/hophacks/BuildConfig.java
+ com.example.hophacks.BuildConfig
+com/example/hophacks/databinding/ActivityMainBinding.java
+ com.example.hophacks.databinding.ActivityMainBinding
+com/example/hophacks/FirstFragment.java
+ com.example.hophacks.FirstFragment
+ com.example.hophacks.FirstFragment$1
+com/example/hophacks/databinding/FragmentSecondBinding.java
+ com.example.hophacks.databinding.FragmentSecondBinding
