@@ -6,7 +6,16 @@ public class StudySpot extends Location {
     boolean vendingSupplies;
     boolean[] equipment = new boolean[4]; //computer, projector, whiteboard, printer
 
-    public StudySpot() {
+    public StudySpot(String name, boolean jCardReq, boolean foodAllowed, boolean foodSold,
+                     int hygiene, int seating, boolean openNow, int privacy,
+                     boolean vendingFood, boolean rsvp, int volume, boolean claustrophobic,
+                     boolean vendingSupplies, boolean[] equipment){
+
+        super(name, jCardReq, foodAllowed, foodSold, hygiene, seating, openNow,
+                privacy, vendingFood,rsvp,volume);
+        this.setClaustrophobic(claustrophobic);
+        this.setVendingSupplies(vendingSupplies);
+        this.setEquipment(equipment);
 
     }
 
@@ -38,13 +47,6 @@ public class StudySpot extends Location {
     @Override
     public String toString() {
         return "Study Spot: " + super.toString();
-    }
-
-    public static void main(String[] args) {
-        StudySpot Brody_Atrium = new StudySpot();
-        Brody_Atrium.setName("Brody Atrium");
-
-
     }
 
 }
