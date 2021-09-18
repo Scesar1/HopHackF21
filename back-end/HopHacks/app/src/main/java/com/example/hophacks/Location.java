@@ -2,6 +2,7 @@ package com.example.hophacks;
 
 public class Location {
 
+    protected String name;
     protected boolean jCardReq;
     protected boolean foodAllowed;
     protected boolean foodSold;
@@ -13,6 +14,20 @@ public class Location {
     protected boolean rsvp;
 
     public Location() {
+
+    }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public boolean isjCardReq() {
