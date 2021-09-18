@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "678537880628",
+    "project_id": "appdatabase-326416",
+    "storage_bucket": "appdatabase-326416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678537880628:android:6bbf9a8593d3c959f1d661",
+        "android_client_info": {
+          "package_name": "com.example.hophacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678537880628-5e22evcum78gosjac221sg22aufrc9qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5wCY9ZKbm0oK5IErimBuFCpf_48tc6c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678537880628-5e22evcum78gosjac221sg22aufrc9qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678537880628:android:73bb67239cef51a9f1d661",
+        "android_client_info": {
+          "package_name": "com.pain.hophacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678537880628-5e22evcum78gosjac221sg22aufrc9qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5wCY9ZKbm0oK5IErimBuFCpf_48tc6c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678537880628-5e22evcum78gosjac221sg22aufrc9qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
