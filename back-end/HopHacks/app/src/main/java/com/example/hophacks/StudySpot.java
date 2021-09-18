@@ -39,4 +39,13 @@ public class StudySpot extends Location {
     public String toString() {
         return "Study Spot: " + super.toString();
     }
+
+    public static void main(String[] args) {
+        StudySpot Brody_Atrium = new StudySpot();
+        Brody_Atrium.setName("Brody Atrium");
+
+
+    }
+
 }
+
