@@ -20,7 +20,7 @@ public class FragmentQuestion1 extends Fragment {
 
 
     private FragmentQuestion1Binding binding;
-    Findr finderScore = new Findr();
+    Findr idealSpot = new Findr();
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -41,8 +41,8 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 0;
-                finderScore.desiredVolume = desiredVolume;
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
 
@@ -50,8 +50,8 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 1;
-                finderScore.desiredVolume = desiredVolume;
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
 
@@ -59,17 +59,16 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 2;
-                finderScore.desiredVolume = desiredVolume;
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
         binding.imageButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 desiredVolume = 3;
-                finderScore.desiredVolume = desiredVolume;
-                System.out.println("poke!");
-                //you can delete this stuff
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
 
