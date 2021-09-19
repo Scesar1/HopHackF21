@@ -21,7 +21,7 @@ import com.example.hophacks.databinding.FragmentQuestion3Binding;
  */
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class FragmentQuestion3 extends Fragment {
-    public SpotsViewModel spotsView;
+    //
 
     private @NonNull
     FragmentQuestion3Binding binding;
@@ -46,7 +46,7 @@ public class FragmentQuestion3 extends Fragment {
             @Override
             public void onClick(View view) {
                 //If user presses 'NoSeat'
-                spotsView.idealSpot.setDesiredSeating(0);
+                SpotsViewModel.idealSpot.setDesiredSeating(0);
             }
         });
 
@@ -54,7 +54,7 @@ public class FragmentQuestion3 extends Fragment {
             @Override
             public void onClick(View view) {
                 //if user presses 'desk chair'
-                spotsView.idealSpot.setDesiredSeating(1);
+                SpotsViewModel.idealSpot.setDesiredSeating(1);
             }
         });
 
@@ -62,7 +62,7 @@ public class FragmentQuestion3 extends Fragment {
             @Override
             public void onClick(View view) {
                 //if user presses 'lounge chair'
-                spotsView.idealSpot.setDesiredSeating(2);
+                SpotsViewModel.idealSpot.setDesiredSeating(2);
             }
         });
 
@@ -70,38 +70,38 @@ public class FragmentQuestion3 extends Fragment {
             @Override
             public void onClick(View view) {
                 //if user presses 'sofa'
-                spotsView.idealSpot.setDesiredSeating(3);
+                SpotsViewModel.idealSpot.setDesiredSeating(3);
             }
         });
-        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+        binding.button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if user presses 'desk chair'
-                spotsView.idealSpot.setDesiredSeating(1);
-            }
-        });
-
-        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //if user presses 'desk chair'
-                spotsView.idealSpot.setDesiredSeating(1);
+                //if user presses 'with other people'
+                SpotsViewModel.idealSpot.setDesiredPrivacy(0);
             }
         });
 
-        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+        binding.button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if user presses 'desk chair'
-                spotsView.idealSpot.setDesiredSeating(1);
+                //if user presses 'alone but ok'
+                SpotsViewModel.idealSpot.setDesiredPrivacy(1);
             }
         });
 
-        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+        binding.button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if user presses 'desk chair'
-                spotsView.idealSpot.setDesiredSeating(1);
+                //if user presses 'i dont want to be bothered'
+                SpotsViewModel.idealSpot.setDesiredPrivacy(2);
+            }
+        });
+
+        binding.button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'super private'
+                SpotsViewModel.idealSpot.setDesiredSeating(3);
             }
         });
 

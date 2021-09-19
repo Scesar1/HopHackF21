@@ -17,7 +17,7 @@ import com.example.hophacks.databinding.FragmentQuestion2Binding;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class FragmentQuestion2 extends Fragment {
-    public SpotsViewModel spotsView;
+
     private @NonNull FragmentQuestion2Binding binding;
 
     @Override
@@ -40,7 +40,7 @@ public class FragmentQuestion2 extends Fragment {
             @Override
             public void onClick(View view) {
                 //If user presses 'No'
-                spotsView.idealSpot.setFoodDesired(false);
+                SpotsViewModel.idealSpot.setFoodDesired(false);
             }
         });
 
@@ -48,7 +48,7 @@ public class FragmentQuestion2 extends Fragment {
             @Override
             public void onClick(View view) {
                 //if user presses 'Yes'
-                spotsView.idealSpot.setFoodDesired(true);
+                SpotsViewModel.idealSpot.setFoodDesired(true);
             }
         });
 

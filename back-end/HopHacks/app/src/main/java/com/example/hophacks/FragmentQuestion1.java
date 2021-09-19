@@ -17,7 +17,7 @@ import com.example.hophacks.databinding.FragmentQuestion1Binding;
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class FragmentQuestion1 extends Fragment {
     int desiredVolume;
-    public SpotsViewModel spotsView;
+
 
     private FragmentQuestion1Binding binding;
     //Findr idealSpot = new Findr();
@@ -41,7 +41,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 0;
-                spotsView.idealSpot.setDesiredVolume(desiredVolume);
+                SpotsViewModel.idealSpot.setDesiredVolume(desiredVolume);
                 System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
@@ -50,7 +50,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 1;
-                spotsView.idealSpot.setDesiredVolume(desiredVolume);
+                SpotsViewModel.idealSpot.setDesiredVolume(desiredVolume);
                 System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
@@ -59,7 +59,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 2;
-                spotsView.idealSpot.setDesiredVolume(desiredVolume);
+                SpotsViewModel.idealSpot.setDesiredVolume(desiredVolume);
                 System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
@@ -67,7 +67,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 3;
-                spotsView.idealSpot.setDesiredVolume(desiredVolume);
+                SpotsViewModel.idealSpot.setDesiredVolume(desiredVolume);
                 System.out.println("poke! desiredVolume is " + desiredVolume);
             }
         });
@@ -75,7 +75,7 @@ public class FragmentQuestion1 extends Fragment {
         binding.button.setOnClickListener(new View.OnClickListener() { // computers
             @Override
             public void onClick(View view) {
-                spotsView.idealSpot.equipmentDesired[0] = true;
+                SpotsViewModel.idealSpot.equipmentDesired[0] = true;
                 System.out.println("Computer desired!");
             }
         });
@@ -83,7 +83,7 @@ public class FragmentQuestion1 extends Fragment {
         binding.button2.setOnClickListener(new View.OnClickListener() { // projector
             @Override
             public void onClick(View view) {
-                spotsView.idealSpot.equipmentDesired[1] = true;
+                SpotsViewModel.idealSpot.equipmentDesired[1] = true;
                 System.out.println("Projector desired.");
             }
         });
@@ -91,7 +91,7 @@ public class FragmentQuestion1 extends Fragment {
         binding.button3.setOnClickListener(new View.OnClickListener() { // whiteboard
             @Override
             public void onClick(View view) {
-                spotsView.idealSpot.equipmentDesired[2] = true;
+                SpotsViewModel.idealSpot.equipmentDesired[2] = true;
                 System.out.println("Whiteboard desired.");
             }
         });
@@ -99,7 +99,7 @@ public class FragmentQuestion1 extends Fragment {
         binding.button6.setOnClickListener(new View.OnClickListener() { // printers
             @Override
             public void onClick(View view) {
-                spotsView.idealSpot.equipmentDesired[3] = true;
+                SpotsViewModel.idealSpot.equipmentDesired[3] = true;
                 System.out.println("Printer desired.");
             }
         });
