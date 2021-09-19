@@ -72,28 +72,28 @@ public class FragmentQuestion1 extends Fragment {
             }
         });
 
-        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+        binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Add your code here
             }
         });
 
-        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+        binding.button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Add your code here
             }
         });
 
-        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+        binding.button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Add your code here
             }
         });
 
-        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+        binding.button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Add your code here
