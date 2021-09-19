@@ -1,5 +1,7 @@
 package com.example.hophacks;
 
+import java.util.Objects;
+
 public class Location {
 
     protected String name;
@@ -135,4 +137,16 @@ public class Location {
         this.volume = volume;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Location location = (Location) o;
+        return jCardReq == location.jCardReq && foodAllowed == location.foodAllowed && foodSold == location.foodSold && hygiene == location.hygiene && seating == location.seating && openTime == location.openTime && closingTime == location.closingTime && privacy == location.privacy && vendingFood == location.vendingFood && rsvp == location.rsvp && volume == location.volume && Objects.equals(name, location.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, jCardReq, foodAllowed, foodSold, hygiene, seating, openTime, closingTime, privacy, vendingFood, rsvp, volume);
+    }
 }

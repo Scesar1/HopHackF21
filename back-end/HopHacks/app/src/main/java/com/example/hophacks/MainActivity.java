@@ -24,6 +24,7 @@ import android.view.MenuItem;
 import android.widget.CheckBox;
 import android.widget.Toast;
 
+@RequiresApi(api = Build.VERSION_CODES.O)
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
@@ -32,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;
     private CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
-    public SpotsViewModel idealSpot;
 
-    StudySpot[] bestMatch = idealSpot;
+    StudySpot[] best5match = SpotsViewModel.idealSpot.rankSpots();
+    StudySpot bestMatch = best5match[0];
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,50 +55,51 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.add(new FragmentQuestion1(), "Page 1");
         viewPagerAdapter.add(new FragmentQuestion2(), "Page 2");
         viewPagerAdapter.add(new FragmentQuestion3(), "Page 3");
-        if (brodyStudyRooms) {
-            viewPagerAdapter.add(new fragment4(), "Page 3");
+
+        if (bestMatch.getName().equals("Brody Atrium")) {
+            viewPagerAdapter.add(new fragment4(), "Page 4");
         }
-        if(brodyReadingRoom) {
-            viewPagerAdapter.add(new fragment5(), "Page 3");
+        if(bestMatch.getName().equals("Brody Reading Room")) {
+            viewPagerAdapter.add(new fragment5(), "Page 4");
         }
         if (brodyTerrace) {
-            viewPagerAdapter.add(new fragment6(), "Page 3");
+            viewPagerAdapter.add(new fragment6(), "Page 4");
         }
         if (hutReadingRoom) {
-            viewPagerAdapter.add(new fragment7(), "Page 3");
+            viewPagerAdapter.add(new fragment7(), "Page 4");
         }
         if (leveringLounge) {
-            viewPagerAdapter.add(new fragment8(), "Page 3");
+            viewPagerAdapter.add(new fragment8(), "Page 4");
         }
         if (mseALevel) {
-            viewPagerAdapter.add(new fragment9(), "Page 3");
+            viewPagerAdapter.add(new fragment9(), "Page 4");
         }
         if (mseBLevel) {
-            viewPagerAdapter.add(new fragment10(), "Page 3");
+            viewPagerAdapter.add(new fragment10(), "Page 4");
         }
         if (mseCLevel) {
-            viewPagerAdapter.add(new fragment11(), "Page 3");
+            viewPagerAdapter.add(new fragment11(), "Page 4");
         }
         if (mseDLevel) {
-            viewPagerAdapter.add(new fragment12(), "Page 3");
+            viewPagerAdapter.add(new fragment12(), "Page 4");
         }
         if (mseStudyRooms) {
-            viewPagerAdapter.add(new fragment13(), "Page 3");
+            viewPagerAdapter.add(new fragment13(), "Page 4");
         }
         if (mseMLevel) {
-            viewPagerAdapter.add(new fragment14(), "Page 3");
+            viewPagerAdapter.add(new fragment14(), "Page 4");
         }
         if (muddAtrium) {
-            viewPagerAdapter.add(new fragment15(), "Page 3");
+            viewPagerAdapter.add(new fragment15(), "Page 4");
         }
         if (vizualizationStudio) {
-            viewPagerAdapter.add(new fragment16(), "Page 3");
+            viewPagerAdapter.add(new fragment16(), "Page 4");
         }
         if (beach) {
-            viewPagerAdapter.add(new fragment17(), "Page 3");
+            viewPagerAdapter.add(new fragment17(), "Page 4");
         }
         if (brodyCafe) {
-            viewPagerAdapter.add(new fragment18(), "Page 3");
+            viewPagerAdapter.add(new fragment18(), "Page 4");
         }
 
         //Set the Adapter
