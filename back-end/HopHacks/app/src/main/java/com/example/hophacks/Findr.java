@@ -19,10 +19,10 @@ public class Findr {
         int desiredVolume; // 0 = NO TALKING, 1 = very quiet, whisper only, 2 = convos allowed,
                             // 3 = CONVOS WILL BE HAD HERE
         boolean claustrophobicDesired; // do you want to be in an enclosed space?
-        boolean vendingSuppliesDesired; // do you want stationary vending? pencils, pens, etc
+        boolean vendingSuppliesDesired; // do you want stationery vending? pencils, pens, etc
         boolean[] equipmentDesired; // {computer, projector, whiteboard, printer}
 
-        
+
 
     }
 }
