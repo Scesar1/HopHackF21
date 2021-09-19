@@ -16,8 +16,6 @@ public class LocationList {
         boolean[] justProjector = {false, true, false, false}; //projector/monitor/tv
         boolean[] allButComputers = {false, true, true, true};
 
-        // TODO: set equipment for each location
-
         StudySpot brodyAtrium = new StudySpot("Brody Atrium", true, true, true, 2,
                 2, 800,2600, 0, false,
                 false, 3, false, false, allButComputers);
