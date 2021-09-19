@@ -57,50 +57,47 @@ public class MainActivity extends AppCompatActivity {
         if (brodyStudyRooms) {
             viewPagerAdapter.add(new fragment4(), "Page 3");
         }
-        if() {
+        if(brodyReadingRoom) {
             viewPagerAdapter.add(new fragment5(), "Page 3");
         }
-        if (brodyReadingRoom) {
+        if (brodyTerrace) {
             viewPagerAdapter.add(new fragment6(), "Page 3");
         }
-        if (brodyTerrace) {
+        if (hutReadingRoom) {
             viewPagerAdapter.add(new fragment7(), "Page 3");
         }
-        if (...) {
+        if (leveringLounge) {
             viewPagerAdapter.add(new fragment8(), "Page 3");
         }
-        if (...) {
+        if (mseALevel) {
             viewPagerAdapter.add(new fragment9(), "Page 3");
         }
-        if (...) {
+        if (mseBLevel) {
             viewPagerAdapter.add(new fragment10(), "Page 3");
         }
-        if (...) {
+        if (mseCLevel) {
             viewPagerAdapter.add(new fragment11(), "Page 3");
         }
-        if (...) {
+        if (mseDLevel) {
             viewPagerAdapter.add(new fragment12(), "Page 3");
         }
-        if (...) {
+        if (mseStudyRooms) {
             viewPagerAdapter.add(new fragment13(), "Page 3");
         }
-        if (...) {
+        if (mseMLevel) {
             viewPagerAdapter.add(new fragment14(), "Page 3");
         }
-        if (...) {
+        if (muddAtrium) {
             viewPagerAdapter.add(new fragment15(), "Page 3");
         }
-        if (...) {
+        if (vizualizationStudio) {
             viewPagerAdapter.add(new fragment16(), "Page 3");
         }
-        if (...) {
+        if (beach) {
             viewPagerAdapter.add(new fragment17(), "Page 3");
         }
-        if (...) {
+        if (brodyCafe) {
             viewPagerAdapter.add(new fragment18(), "Page 3");
-        }
-        if (...) {
-            viewPagerAdapter.add(new fragment19(), "Page 3");
         }
 
         //Set the Adapter
