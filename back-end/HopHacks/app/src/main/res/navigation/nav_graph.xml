@@ -17,12 +17,34 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.hophacks.SecondFragment"
+        android:name="com.example.hophacks.FragmentQuestion1"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        tools:layout="@layout/fragment_question1">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_SecondFragment_to_fragmentQuestion22"
+            app:destination="@id/fragmentQuestion22" />
+    </fragment>
+    <activity
+        android:id="@+id/activity2"
+        android:name="com.example.hophacks.Activity2"
+        android:label="activity_2"
+        tools:layout="@layout/activity_2" />
+    <fragment
+        android:id="@+id/fragmentQuestion3"
+        android:name="com.example.hophacks.FragmentQuestion3"
+        android:label="fragment_question3"
+        tools:layout="@layout/fragment_question3" >
+        <action
+            android:id="@+id/action_fragmentQuestion3_to_activity2"
+            app:destination="@id/activity2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentQuestion22"
+        android:name="com.example.hophacks.FragmentQuestion2"
+        android:label="fragment_question2"
+        tools:layout="@layout/fragment_question2" >
+        <action
+            android:id="@+id/action_fragmentQuestion22_to_fragmentQuestion3"
+            app:destination="@id/fragmentQuestion3" />
     </fragment>
 </navigation>
