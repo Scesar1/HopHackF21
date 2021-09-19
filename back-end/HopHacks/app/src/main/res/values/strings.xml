@@ -26,6 +26,8 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="refood">Do you want to eat there?</string>
+    <string name="PhotoOfMuddHall">Photo of Mudd Hall</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Personalized campus navigation made by students, for students.</string>
 </resources>
