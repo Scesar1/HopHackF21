@@ -66,5 +66,35 @@
         app:layout_constraintVertical_bias="0.209"
         tools:text="@string/refood" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="409dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/yes"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="418dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/no"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
