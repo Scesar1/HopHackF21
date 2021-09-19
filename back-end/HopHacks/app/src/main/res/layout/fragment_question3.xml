@@ -1,32 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E2EEF8"
     tools:context=".FragmentQuestion3">
 
 
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/privat"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/alonepriv"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/aloneishpriv"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="485dp" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="133dp"
-        android:src="@drawable/textbg_mudd" />
-
+        android:layout_width="458dp"
+        android:layout_height="118dp"
+        android:src="@drawable/textbg_mudd"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="695dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/readingroom"
         android:fontFamily="@font/baloo_bhai"
         android:shadowColor="#000000"
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="25"
-        android:text="Seating"
+        android:text="@string/seating"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="70sp"
@@ -35,8 +69,78 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="108dp"
+        android:layout_height="98dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/_nochairs_icon"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="91dp"
+        android:layout_height="102dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/_deskchairs_icon"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="98dp"
+        android:layout_height="103dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/_loungechairs_icon"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/_couches_icon"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/lowpriv"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="411dp"
+        android:layout_height="149dp"
+        android:src="@drawable/textbg_gilman"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="@string/privacy"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="309dp" />
 
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
