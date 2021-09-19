@@ -3,11 +3,13 @@ package com.example.hophacks;
 public class test {
 
     public static void main(String[] args) {
-        StudySpot Brody_Atrium = new StudySpot("Brody Atrium", true, true,
-                false, 2,2,true,0,false,
-                false, 1, false,false,
-                new boolean[] {false, false, false, false});
+        boolean[] equipment = new boolean[4];
+        StudySpot Brody_Atrium = new StudySpot("Brody Atrium", true, true, true, 2,
+                100,true, 0, false,
+                false, 2, 100, false, false, equipment);
         Brody_Atrium.setName("Brody Atrium");
+
+
 
 
     }
