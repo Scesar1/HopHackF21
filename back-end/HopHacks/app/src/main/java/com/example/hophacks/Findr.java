@@ -4,8 +4,8 @@ import android.os.Build;
 import androidx.annotation.RequiresApi;
 import java.time.LocalTime;
 
+public class Findr extends LocationList {
 
-public class Findr {
     //public double score;
     boolean foodDesired; // want food? if yes = true
     int desiredHygiene; // 0 = no bathroom, 1 = bathroom nearby,
@@ -31,11 +31,45 @@ public class Findr {
         }
     }
 
-    /*
-    public void updateScore(int score) {
-        this.score += score;
+    public boolean isFoodDesired() {
+        return foodDesired;
     }
-    */
+    public void setFoodDesired(boolean foodDesired) {
+        this.foodDesired = foodDesired;
+    }
+    public int getDesiredHygiene() {
+        return desiredHygiene;
+    }
+    public void setDesiredHygiene(int desiredHygiene) {
+        this.desiredHygiene = desiredHygiene;
+    }
+    public int getDesiredSeating() {
+        return desiredSeating;
+    }
+    public void setDesiredSeating(int desiredSeating) {
+        this.desiredSeating = desiredSeating;
+    }
+    public int getDesiredPrivacy() {
+        return desiredPrivacy;
+    }
+    public void setDesiredPrivacy(int desiredPrivacy) {
+        this.desiredPrivacy = desiredPrivacy;
+    }
+    public int getDesiredVolume() {
+        return desiredVolume;
+    }
+    public void setDesiredVolume(int desiredVolume) {
+        this.desiredVolume = desiredVolume;
+    }
+    public boolean[] getEquipmentDesired() {
+        return equipmentDesired;
+    }
+    public void setEquipmentDesired(boolean[] equipmentDesired) {
+        this.equipmentDesired = equipmentDesired;
+    }
+    public int getTime() {
+        return time;
+    }
 
     public double calculateScore(StudySpot studySpot) {
 
@@ -95,5 +129,45 @@ public class Findr {
 
 
         return Score;
+    }
+
+    public StudySpot[] rankSpots() {
+
+        StudySpot match1; //best match
+        StudySpot match2;
+        StudySpot match3;
+        StudySpot match4;
+        StudySpot match5;
+
+        double[] ranks = new double[studySpotsList.length];
+
+        for (int i = 0; i < ranks.length; i++) {
+            ranks[i] = this.calculateScore(studySpotsList[i]);
+        }
+
+        int[] top5_ind = {0, 1, 2, 3, 4};
+
+        for (int i = 0; i < ranks.length; i++) {
+            if(ranks[i] > ranks[top5_ind[0]]) {
+                top5_ind[0] = i;
+            } else if (ranks[i] > ranks[top5_ind[1]]) {
+                top5_ind[1] = i;
+            } else if (ranks[i] > ranks[top5_ind[2]]) {
+                top5_ind[2] = i;
+            } else if (ranks[i] > ranks[top5_ind[3]]) {
+                top5_ind[3] = i;
+            } else if (ranks[i] > ranks[top5_ind[4]]) {
+                top5_ind[4] = i;
+            }
+        }
+
+        StudySpot[] top5 = new StudySpot[5];
+
+        for (int i = 0; i < top5.length; i++) {
+            top5[i] = studySpotsList[i];
+        }
+
+
+        return top5;
     }
 }

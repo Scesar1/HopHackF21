@@ -3,7 +3,7 @@ package com.example.hophacks;
 import androidx.annotation.NonNull;
 
 public class LocationList {
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
         boolean[] equipment = new boolean[4];
         boolean[] noEquipment = {/*computers*/ false, /*projectors*/ false, /*whiteboards*/ false, /*printers*/ false};
@@ -13,12 +13,6 @@ public class LocationList {
         boolean[] justPrinters = {false, false, false, true};
 
         // TODO: set equipment for each location
-
-        //TODO: check if openNow -- make an hours variable in location obj? and then crosscheck with current time
-        //boolean isOpen = true;
-
-        //TODO: find real max occupancy for capacity variable
-
 
         StudySpot brodyAtrium = new StudySpot("Brody Atrium", true, true, true, 2,
                 2, 800,2600, 0, false,
@@ -89,9 +83,9 @@ public class LocationList {
                 visualizationStudio, mseStudyRooms, brodyStudyRooms, brodyCafe, brodyTerrace,
                 leveringLounge, hutReadingRoom, beach, muddAtrium, brodyReadingRoom};
 
-        printStudySpots(studySpotsList);
+        //printStudySpots(studySpotsList);
 
-    }
+    //}
 
     private static void printStudySpots(@NonNull StudySpot[] spots) {
         for (StudySpot s : spots) {
