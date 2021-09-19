@@ -44,12 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
         //Set the Adapter
         viewPager.setAdapter(viewPagerAdapter);
-
+    /*
         //For the tabs
         tabLayout = findViewById(R.id.tab_layout);
-        tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setupWithViewPager(viewPager);*/
 
         setSupportActionBar(binding.toolbar);
+        getSupportActionBar().hide();
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
