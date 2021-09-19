@@ -16,12 +16,10 @@ import com.example.hophacks.databinding.FragmentQuestion1Binding;
 import com.example.hophacks.databinding.FragmentQuestion2Binding;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
-public class FragmentQuestion2 extends FragmentQuestion1 {
-    int desiredVolume;
-
-
+public class FragmentQuestion2 extends Fragment {
+    public SpotsViewModel spotsView;
     private @NonNull FragmentQuestion2Binding binding;
-    //Findr idealSpot = new Findr();
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -42,7 +40,7 @@ public class FragmentQuestion2 extends FragmentQuestion1 {
             @Override
             public void onClick(View view) {
                 //If user presses 'No'
-                idealSpot.setFoodDesired(false);
+                spotsView.idealSpot.setFoodDesired(false);
             }
         });
 
@@ -50,7 +48,7 @@ public class FragmentQuestion2 extends FragmentQuestion1 {
             @Override
             public void onClick(View view) {
                 //if user presses 'Yes'
-                idealSpot.setFoodDesired(true);
+                spotsView.idealSpot.setFoodDesired(true);
             }
         });
 

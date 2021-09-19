@@ -161,7 +161,6 @@ public class Findr extends LocationList {
             top5[i] = studySpotsList[i];
         }
 
-
         return top5;
     }
 
