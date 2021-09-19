@@ -1,93 +1,100 @@
 package com.example.hophacks;
 
 public class LocationList {
-    boolean[] equipment = new boolean[4];
-    boolean[] noEquipment = {/*computers*/ false, /*projectors*/ false, /*whiteboards*/ false, /*printers*/ false};
-    boolean[] justWhiteboard = {false, false, true, false};
-    boolean[] whiteboardAndProjector = {false, true, true, false};
-    boolean[] whiteboardAndPrinters = {false, false, true, true};
-    boolean[] justPrinters = {false, false, false, true};
+    public static void main(String[] args) {
 
-    // TODO: set equipment for each location
+        boolean[] equipment = new boolean[4];
+        boolean[] noEquipment = {/*computers*/ false, /*projectors*/ false, /*whiteboards*/ false, /*printers*/ false};
+        boolean[] justWhiteboard = {false, false, true, false};
+        boolean[] whiteboardAndProjector = {false, true, true, false};
+        boolean[] whiteboardAndPrinters = {false, false, true, true};
+        boolean[] justPrinters = {false, false, false, true};
 
-    //TODO: check if openNow -- make an hours variable in location obj? and then crosscheck with current time
-    //boolean isOpen = true;
+        // TODO: set equipment for each location
 
-    //TODO: find real max occupancy for capacity variable
+        //TODO: check if openNow -- make an hours variable in location obj? and then crosscheck with current time
+        //boolean isOpen = true;
+
+        //TODO: find real max occupancy for capacity variable
 
 
+        StudySpot brodyAtrium = new StudySpot("Brody Atrium", true, true, true, 2,
+                2, true, 0, false,
+                false, 3, 100, false, false, whiteboardAndProjector);
 
-    StudySpot brodyAtrium = new StudySpot("Brody Atrium", true, true, true, 2,
-            2,true, 0, false,
-            false, 3, 100, false, false, whiteboardAndProjector);
+        StudySpot mseMLevel = new StudySpot("MSE M-Level", true, true, false, 2,
+                2, true, 0, false,
+                false, 3, 100, false, false, whiteboardAndPrinters);
 
-    StudySpot mseMLevel = new StudySpot("MSE M-Level", true, true, false, 2,
-            2,true, 0, false,
-            false, 3, 100, false, false, whiteboardAndPrinters);
+        StudySpot mseALevel = new StudySpot("MSE A-Level", true, true, false, 2,
+                1, true, 0, true,
+                false, 3, 100, false, false, noEquipment);
 
-    StudySpot mseALevel = new StudySpot("MSE A-Level", true, true, false, 2,
-            1, true, 0, true,
-            false, 3, 100, false, false, noEquipment);
+        StudySpot mseBLevel = new StudySpot("MSE B-Level", true, true, false, 1,
+                1, true, 1, false,
+                false, 1, 100, false, false, equipment);
 
-    StudySpot mseBLevel = new StudySpot("MSE B-Level", true, true, false, 1,
-            1, true, 1, false,
-            false, 1, 100, false, false, equipment);
+        StudySpot mseCLevel = new StudySpot("MSE C-Level", true, true, false, 1,
+                1, true, 2, false, false, 0, 100, true,
+                false, noEquipment);
 
-    StudySpot mseCLevel = new StudySpot("MSE C-Level", true, true, false, 1,
-            1, true, 2, false, false, 0, 100, true,
-            false, noEquipment);
+        StudySpot mseDLevel = new StudySpot("MSE D-Level", true, true, false, 1,
+                1, true, 2, false, false, 0, 100, true,
+                false, noEquipment);
 
-    StudySpot mseDLevel = new StudySpot("MSE D-Level", true, true, false, 1,
-            1, true, 2, false, false, 0, 100, true,
-            false, noEquipment);
+        StudySpot visualizationStudio = new StudySpot("A-Level Visualization Studio", true, true, false, 1,
+                1, true, 2, false, false, 3, 100, false,
+                false, equipment);
 
-    StudySpot visualizationStudio = new StudySpot("A-Level Visualization Studio", true, true, false, 1,
-            1, true, 2, false, false, 3, 100, false,
-            false, equipment);
+        StudySpot mseStudyRooms = new StudySpot("MSE Study Rooms", true, true, false, 1,
+                1, true, 3, false, true, 3, 5, true,
+                false, justWhiteboard);
 
-    StudySpot mseStudyRooms = new StudySpot("MSE Study Rooms", true, true, false, 1,
-            1, true, 3, false, true, 3, 5, true,
-            false, justWhiteboard);
+        StudySpot brodyStudyRooms = new StudySpot("Brody Study Rooms", true, true, false, 1,
+                1, true, 3, false, true, 3, 5, true,
+                false, whiteboardAndProjector);
 
-    StudySpot brodyStudyRooms = new StudySpot("Brody Study Rooms", true, true, false, 1,
-            1, true, 3, false, true, 3, 5, true,
-            false, whiteboardAndProjector);
+        StudySpot brodyCafe = new StudySpot("Brody Cafe", true, true, true, 0,
+                1, true, 0, false, false, 3, 50, false,
+                false, noEquipment);
 
-    StudySpot brodyCafe = new StudySpot("Brody Cafe", true, true, true,0,
-            1,true, 0, false,false,3, 50,false,
-            false, noEquipment);
+        StudySpot brodyTerrace = new StudySpot("Brody Terrace", false, true, false, 0,
+                1, true, 0, false, false, 3, 50, false,
+                false, noEquipment);
 
-    StudySpot brodyTerrace = new StudySpot("Brody Terrace", false, true, false,0,
-            1,true, 0, false,false,3, 50,false,
-            false, noEquipment);
+        StudySpot leveringLounge = new StudySpot("Levering Lounge", true, true, false, 1,
+                3, true, 0, true, false, 3, 50, false,
+                false, noEquipment);
 
-    StudySpot leveringLounge = new StudySpot("Levering Lounge", true, true, false, 1,
-            3, true, 0, true, false, 3, 50, false,
-            false, noEquipment);
+        StudySpot hutReadingRoom = new StudySpot("Hutzler Reading Room", false, false, false, 1,
+                3, true, 0, false, false, 0, 50, false,
+                false, justPrinters);
 
-    StudySpot hutReadingRoom = new StudySpot("Hutzler Reading Room", false, false,false, 1,
-            3, true, 0, false, false, 0, 50, false,
-            false, justPrinters);
+        StudySpot beach = new StudySpot("The Beach", false, true, false, 0,
+                1, true, 0, false, false, 3, 300, false,
+                false, noEquipment);
 
-    StudySpot beach = new StudySpot("The Beach", false, true, false,0,
-            1, true, 0, false, false, 3, 300,false,
-            false, noEquipment);
+        StudySpot muddAtrium = new StudySpot("Mudd Atrium", false, true, true, 1,
+                3, true, 0, false, false, 3, 50, false,
+                false, noEquipment);
 
-    StudySpot muddAtrium = new StudySpot("Mudd Atrium", false, true,true, 1,
-            3, true, 0, false, false, 3, 50, false,
-            false, noEquipment);
+        StudySpot brodyReadingRoom = new StudySpot("Brody Reading Room", true, false, false, 1,
+                3, true, 1, false, true, 0, 50, false,
+                false, noEquipment);
 
-    StudySpot brodyReadingRoom = new StudySpot("Brody Reading Room", true, false, false, 1,
-    3,true, 1, false, true, 0, 50, false,
-            false, noEquipment);
 
-    StudySpot[] studySpotsList = new StudySpot[17];
-    
-    public void printStudySpots() {
-        for (StudySpot s : studySpotsList) {
+        StudySpot[] studySpotsList = {brodyAtrium, mseMLevel, mseALevel, mseBLevel, mseCLevel, mseDLevel,
+                visualizationStudio, mseStudyRooms, brodyStudyRooms, brodyCafe, brodyTerrace,
+                leveringLounge, hutReadingRoom, beach, muddAtrium, brodyReadingRoom};
+
+        printStudySpots(studySpotsList);
+
+    }
+
+    private static void printStudySpots(StudySpot[] spots) {
+        for (StudySpot s : spots) {
             System.out.println(s);
         }
-
     }
 
 }
