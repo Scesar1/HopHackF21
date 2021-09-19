@@ -15,7 +15,7 @@
         android:layout_width="413dp"
         android:layout_height="82dp"
         android:ems="10"
-        android:fontFamily="@font/Aurea"
+        android:fontFamily="@font/baloo_bhai"
         android:gravity="center_horizontal"
         android:inputType="textMultiLine"
         android:textAlignment="center"
@@ -32,6 +32,7 @@
         android:id="@+id/button_first"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:background="@drawable/pic1"
         android:backgroundTint="#ACD4FF"
         android:fontFamily="@font/baloo_bhai"
         android:shadowColor="#4F7CAC"
@@ -46,7 +47,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.269"
-        android:background="@drawable/pic1"
         app:strokeColor="#4F7CAC" />
 
     <Button
@@ -73,7 +73,7 @@
         android:layout_width="411dp"
         android:layout_height="51dp"
         android:ems="10"
-        android:fontFamily="@font/Aurea"
+        android:fontFamily="@font/baloo_bhai"
         android:gravity="center_horizontal"
         android:inputType="textMultiLine"
         android:textAlignment="center"
