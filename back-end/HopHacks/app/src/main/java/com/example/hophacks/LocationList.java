@@ -14,6 +14,6 @@ public class LocationList {
 
     StudySpot mseALevel = new StudySpot("MSE A-Level", true, true, false, 2,
             100, true, 0, true, false, 1, 100, false,
-    false, equipment);
+    false, equipment); //
 
 }
