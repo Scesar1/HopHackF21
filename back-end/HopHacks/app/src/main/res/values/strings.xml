@@ -34,6 +34,6 @@
     <string name="privacy">Privacy</string>
     <string name="lowpriv">With other people</string>
     <string name="aloneishpriv">Alone but okay with others around me</string>
-    <string name="alonepriv">I don't want to be bothered</string>
+    <string name="alonepriv">I dont want to be bothered</string>
     <string name="privat">Super private space</string>
 </resources>
