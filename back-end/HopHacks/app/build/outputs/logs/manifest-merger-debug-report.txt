@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/matthewpolson/.gradle/caches/transforms-3/620e574f95cf7e7e93ac68ed08666fcb/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/matthewpolson/.gradle/caches/transforms-3/ebce84e9fd7257a0362f444a0d83c173/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/matthewpolson/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -68,25 +68,25 @@ MERGED from [androidx.print:print:1.0.0] /Users/matthewpolson/.gradle/caches/tra
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/matthewpolson/.gradle/caches/transforms-3/d3f87aa4861bbafadab8253cbbec58bc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/matthewpolson/.gradle/caches/transforms-3/82f0742619c93bff749e298ff0daa035/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/matthewpolson/.gradle/caches/transforms-3/9ccd4574ebca9c86103f7bd859ba1dfd/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:5:5-26:19
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/matthewpolson/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/matthewpolson/.gradle/caches/transforms-3/c2e76fb5e086b5c906002f45c03cd24a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/matthewpolson/.gradle/caches/transforms-3/c0f7869d4dd728111a89d7a770b58255/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -139,32 +139,38 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matt
 		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:11:9-46
-activity#com.example.hophacks.MainActivity
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:12:9-22:20
-	android:label
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:15:13-45
+activity#com.example.hophacks.Activity2
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:12:9-14:39
 	android:exported
 		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:13:13-38
+activity#com.example.hophacks.MainActivity
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:16:13-62
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:19:13-62
 	android:name
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:23:27-74
 meta-data#preloaded_fonts
-ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:23:9-25:57
+ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:27:9-29:57
 	android:resource
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:25:13-54
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:29:13-54
 	android:name
-		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:24:13-43
+		ADDED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml:28:13-43
 uses-sdk
 INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/matthewpolson/StudioProjects/HopHackF21/back-end/HopHacks/app/src/main/AndroidManifest.xml
