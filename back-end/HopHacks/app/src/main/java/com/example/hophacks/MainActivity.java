@@ -12,8 +12,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.hophacks.databinding.ActivityMainBinding;
+import com.google.android.material.tabs.TabLayout;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    private ViewPager viewPager;
+    private ViewPagerAdapter viewPagerAdapter;
+    private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,20 +35,35 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        viewPager = findViewById(R.id.viewpager);
+
+        //Setting up the adapter
+        viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+
+        //Adding the fragments
+
+        //Set the Adapter
+        viewPager.setAdapter(viewPagerAdapter);
+
+        //For the tabs
+        tabLayout = findViewById(R.id.tab_layout);
+        tabLayout.setupWithViewPager(viewPager);
+
         setSupportActionBar(binding.toolbar);
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
+        /*
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
