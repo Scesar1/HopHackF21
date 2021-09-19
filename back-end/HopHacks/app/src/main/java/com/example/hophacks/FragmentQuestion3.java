@@ -14,14 +14,8 @@ import android.view.ViewGroup;
 import com.example.hophacks.databinding.FragmentQuestion2Binding;
 import com.example.hophacks.databinding.FragmentQuestion3Binding;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the factory method to
- * create an instance of this fragment.
- */
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class FragmentQuestion3 extends Fragment {
-    //
 
     private @NonNull
     FragmentQuestion3Binding binding;

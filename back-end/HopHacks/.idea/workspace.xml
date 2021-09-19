@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="SpotsViewModel ???">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="SpotsViewModel ???????">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632054642113</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="SpotsViewModel ???????">
+      <created>1632054934619</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632054934619</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +472,8 @@
     <MESSAGE value="connected all FragmentQuestion classes" />
     <MESSAGE value="attempt at FragmentQuestion3" />
     <MESSAGE value="SpotsViewModel ???" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpotsViewModel ???" />
+    <MESSAGE value="SpotsViewModel ???????" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpotsViewModel ???????" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HopHacks$LocationList.ic" NAME="LocationList Coverage Results" MODIFIED="1632019629682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
