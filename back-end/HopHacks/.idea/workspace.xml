@@ -9,18 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="attempt at FragmentQuestion3">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/SpotsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/Findr.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/Findr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion2.java" afterDir="false" />
+    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="SpotsViewModel ???">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -411,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632052810936</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="SpotsViewModel ???">
+      <created>1632054235502</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1632054235502</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +415,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -449,7 +457,8 @@
     <MESSAGE value="do you want food? buttons assigned" />
     <MESSAGE value="connected all FragmentQuestion classes" />
     <MESSAGE value="attempt at FragmentQuestion3" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt at FragmentQuestion3" />
+    <MESSAGE value="SpotsViewModel ???" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpotsViewModel ???" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HopHacks$LocationList.ic" NAME="LocationList Coverage Results" MODIFIED="1632019629682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

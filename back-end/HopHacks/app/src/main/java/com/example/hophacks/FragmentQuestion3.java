@@ -42,19 +42,66 @@ public class FragmentQuestion3 extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.button.setOnClickListener(new View.OnClickListener() {
+        binding.imageButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //If user presses 'No'
-                spotsView.idealSpot.setFoodDesired(false);
+                //If user presses 'NoSeat'
+                spotsView.idealSpot.setDesiredSeating(0);
             }
         });
 
-        binding.button.setOnClickListener(new View.OnClickListener() {
+        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if user presses 'Yes'
-                spotsView.idealSpot.setFoodDesired(true);
+                //if user presses 'desk chair'
+                spotsView.idealSpot.setDesiredSeating(1);
+            }
+        });
+
+        binding.imageButton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'lounge chair'
+                spotsView.idealSpot.setDesiredSeating(2);
+            }
+        });
+
+        binding.imageButton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'sofa'
+                spotsView.idealSpot.setDesiredSeating(3);
+            }
+        });
+        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'desk chair'
+                spotsView.idealSpot.setDesiredSeating(1);
+            }
+        });
+
+        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'desk chair'
+                spotsView.idealSpot.setDesiredSeating(1);
+            }
+        });
+
+        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'desk chair'
+                spotsView.idealSpot.setDesiredSeating(1);
+            }
+        });
+
+        binding.imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //if user presses 'desk chair'
+                spotsView.idealSpot.setDesiredSeating(1);
             }
         });
 

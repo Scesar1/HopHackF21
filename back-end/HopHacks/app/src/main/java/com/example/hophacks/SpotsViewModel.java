@@ -8,4 +8,5 @@ import androidx.lifecycle.ViewModel;
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class SpotsViewModel extends ViewModel {
     protected static Findr idealSpot = new Findr();
+    //StudySpot[] top5 = idealSpot.rankSpots();
 }
