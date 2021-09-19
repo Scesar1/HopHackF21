@@ -18,6 +18,7 @@ import com.example.hophacks.databinding.FragmentQuestion1Binding;
 public class FragmentQuestion1 extends Fragment {
     int desiredVolume;
 
+
     private FragmentQuestion1Binding binding;
     Findr finderScore = new Findr();
     @Override
@@ -68,6 +69,34 @@ public class FragmentQuestion1 extends Fragment {
                 desiredVolume = 3;
                 finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
+            }
+        });
+
+        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Add your code here
+            }
+        });
+
+        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Add your code here
+            }
+        });
+
+        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Add your code here
+            }
+        });
+
+        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Add your code here
             }
         });
     }
