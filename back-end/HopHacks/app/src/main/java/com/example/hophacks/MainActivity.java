@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity {
         if (muddAtrium) {
             viewPagerAdapter.add(new fragment15(), "Page 4");
         }
-        if (vizualizationStudio) {
+        if (bestMatch.getName().equals("Visualization Studio")) {
             viewPagerAdapter.add(new fragment16(), "Page 4");
         }
-        if (beach) {
+        if (bestMatch.getName().equals("The Beach")) {
             viewPagerAdapter.add(new fragment17(), "Page 4");
         }
-        if (brodyCafe) {
+        if (bestMatch.getName().equals("Brody Cafe")) {
             viewPagerAdapter.add(new fragment18(), "Page 4");
         }
 
