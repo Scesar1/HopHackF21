@@ -24,11 +24,13 @@ public class FragmentQuestion1 extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
+        super.onCreate(savedInstanceState);
         binding = FragmentQuestion1Binding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
+
+
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -38,6 +40,33 @@ public class FragmentQuestion1 extends Fragment {
             public void onClick(View view) {
                 desiredVolume = 0;
                 finderScore.updateScore(desiredVolume);
+                System.out.println("poke!");
+            }
+        });
+
+        binding.imageButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                desiredVolume = 1;
+                finderScore.updateScore(desiredVolume);
+                System.out.println("poke!");
+            }
+        });
+
+        binding.imageButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                desiredVolume = 2;
+                finderScore.updateScore(desiredVolume);
+                System.out.println("poke!");
+            }
+        });
+        binding.imageButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                desiredVolume = 3;
+                finderScore.updateScore(desiredVolume);
+                System.out.println("poke!");
             }
         });
     }
