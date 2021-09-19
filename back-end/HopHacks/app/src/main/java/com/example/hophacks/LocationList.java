@@ -54,7 +54,7 @@ public class LocationList {
                 1, 800,2600, 3, false,
                 true, 3, true, false, whiteboardAndProjector);
 
-        StudySpot brodyCafe = new StudySpot("Brody Cafe", true, true, true, 0,
+        StudySpot brodyCafe = new StudySpot("Brody Cafe", false, true, true, 0,
                 1, 830,1600, 0, false,
                 false, 3, false, false, noEquipment);
 
