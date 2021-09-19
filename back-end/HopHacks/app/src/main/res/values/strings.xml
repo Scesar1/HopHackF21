@@ -9,4 +9,17 @@
     <string name="previous">Previous</string>
     <string name="question">Whatcha\' Feeling</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="quiet">quiet</string>
+    <string name="low_volume">low volume</string>
+    <string name="medium">medium volume</string>
+    <string name="louder">louder</string>
+    <string name="brody">brody</string>
+    <string name="readingroom">reading room</string>
+    <string name="volume">Volume</string>
+    <string name="computers">Computers</string>
+    <string name="whiteboards">Whiteboards</string>
+    <string name="printers">Printers/Copiers</string>
+    <string name="projectors">Projectors</string>
+    <string name="logo">logo</string>
+    <string name="equipment">Equipment</string>
 </resources>
