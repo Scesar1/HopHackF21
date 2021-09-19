@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
     public SpotsViewModel idealSpot;
 
-    StudySpot[] bestMatch =;
+    StudySpot[] bestMatch = idealSpot;
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
