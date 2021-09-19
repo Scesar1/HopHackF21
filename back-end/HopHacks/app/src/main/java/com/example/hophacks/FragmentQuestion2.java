@@ -33,7 +33,7 @@ public class FragmentQuestion2 extends Fragment {
 
     }
 
-
+    // FOOD????
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -42,6 +42,7 @@ public class FragmentQuestion2 extends Fragment {
             @Override
             public void onClick(View view) {
                 //If user presses 'No'
+                idealSpot.setFoodDesired(false);
             }
         });
 
@@ -49,6 +50,7 @@ public class FragmentQuestion2 extends Fragment {
             @Override
             public void onClick(View view) {
                 //if user presses 'Yes'
+                idealSpot.setFoodDesired(true);
             }
         });
 
