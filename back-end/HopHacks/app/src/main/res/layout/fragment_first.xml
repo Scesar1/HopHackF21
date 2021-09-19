@@ -33,6 +33,8 @@
         android:id="@+id/button_first"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:backgroundTint="#ACD4FF"
         android:fontFamily="@font/baloo_bhai"
         android:shadowColor="#4F7CAC"
@@ -50,9 +52,11 @@
         app:strokeColor="#4F7CAC" />
 
     <Button
-        android:id="@+id/button_first2"
+        android:id="@+id/button_second"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:backgroundTint="#ACD4FF"
         android:fontFamily="@font/baloo_bhai"
         android:shadowColor="#4F7CAC"
