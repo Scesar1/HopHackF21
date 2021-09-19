@@ -21,6 +21,8 @@ import com.google.android.material.tabs.TabLayout;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.CheckBox;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;
+    private CheckBox checkBox1, checkBox2, checkBox3, checkBox4;
+    public SpotsViewModel idealSpot;
 
+    StudySpot[] bestMatch =;
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +54,54 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.add(new FragmentQuestion1(), "Page 1");
         viewPagerAdapter.add(new FragmentQuestion2(), "Page 2");
         viewPagerAdapter.add(new FragmentQuestion3(), "Page 3");
+        if (brodyStudyRooms) {
+            viewPagerAdapter.add(new fragment4(), "Page 3");
+        }
+        if() {
+            viewPagerAdapter.add(new fragment5(), "Page 3");
+        }
+        if (brodyReadingRoom) {
+            viewPagerAdapter.add(new fragment6(), "Page 3");
+        }
+        if (brodyTerrace) {
+            viewPagerAdapter.add(new fragment7(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment8(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment9(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment10(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment11(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment12(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment13(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment14(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment15(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment16(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment17(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment18(), "Page 3");
+        }
+        if (...) {
+            viewPagerAdapter.add(new fragment19(), "Page 3");
+        }
 
         //Set the Adapter
         viewPager.setAdapter(viewPagerAdapter);
@@ -60,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().hide();
+
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
@@ -74,6 +128,23 @@ public class MainActivity extends AppCompatActivity {
         });*/
     }
 
+    public void Check(View v) {
+        String msg ="";
+        if(checkBox1.isChecked()) {
+            System.out.println("Computer");
+        }
+        if(checkBox2.isChecked()) {
+            System.out.println("Projector");
+        }
+        if(checkBox3.isChecked()) {
+            System.out.println("Whiteboard");
+        }
+        if(checkBox4.isChecked()) {
+            System.out.println("Printer");
+        }
+
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
