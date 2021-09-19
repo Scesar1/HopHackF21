@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -39,7 +40,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 0;
-                finderScore.updateScore(desiredVolume);
+                finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
             }
         });
@@ -48,7 +49,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 1;
-                finderScore.updateScore(desiredVolume);
+                finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
             }
         });
@@ -57,7 +58,7 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 2;
-                finderScore.updateScore(desiredVolume);
+                finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
             }
         });
@@ -65,11 +66,12 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 3;
-                finderScore.updateScore(desiredVolume);
+                finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
             }
         });
     }
+
 
     @Override
     public void onDestroyView() {

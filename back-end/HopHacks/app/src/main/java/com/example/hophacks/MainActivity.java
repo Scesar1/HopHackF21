@@ -1,9 +1,11 @@
 package com.example.hophacks;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,10 +45,16 @@ public class MainActivity extends AppCompatActivity {
 
         //Adding the fragments
 
+        viewPagerAdapter.add(new FirstFragment(), "Page 0");
+        viewPagerAdapter.add(new FragmentQuestion1(), "Page 1");
+        viewPagerAdapter.add(new FragmentQuestion2(), "Page 2");
+        viewPagerAdapter.add(new FragmentQuestion3(), "Page 3");
+
         //Set the Adapter
         viewPager.setAdapter(viewPagerAdapter);
-    /*
+
         //For the tabs
+        /*
         tabLayout = findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(viewPager);*/
 
