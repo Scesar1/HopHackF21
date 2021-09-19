@@ -69,6 +69,7 @@ public class FragmentQuestion1 extends Fragment {
                 desiredVolume = 3;
                 finderScore.desiredVolume = desiredVolume;
                 System.out.println("poke!");
+                //you can delete this stuff
             }
         });
 
