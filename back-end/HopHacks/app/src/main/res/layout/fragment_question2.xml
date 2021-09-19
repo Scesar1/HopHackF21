@@ -8,7 +8,7 @@
     android:background="#E2EEF8"
     android:backgroundTint="#004F7CAC"
     android:backgroundTintMode="src_atop"
-    tools:context=".fragment3">
+    tools:context=".FragmentQuestion2">
 
     <ImageView
         android:id="@+id/imageView3"
