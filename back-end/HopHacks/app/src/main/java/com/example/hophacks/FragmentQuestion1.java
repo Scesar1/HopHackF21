@@ -72,31 +72,35 @@ public class FragmentQuestion1 extends Fragment {
             }
         });
 
-        binding.button.setOnClickListener(new View.OnClickListener() {
+        binding.button.setOnClickListener(new View.OnClickListener() { // computers
             @Override
             public void onClick(View view) {
-                //Add your code here
+                idealSpot.equipmentDesired[0] = true;
+                System.out.println("Computer desired!");
             }
         });
 
-        binding.button2.setOnClickListener(new View.OnClickListener() {
+        binding.button2.setOnClickListener(new View.OnClickListener() { // projector
             @Override
             public void onClick(View view) {
-                //Add your code here
+                idealSpot.equipmentDesired[1] = true;
+                System.out.println("Projector desired.");
             }
         });
 
-        binding.button3.setOnClickListener(new View.OnClickListener() {
+        binding.button3.setOnClickListener(new View.OnClickListener() { // whiteboard
             @Override
             public void onClick(View view) {
-                //Add your code here
+                idealSpot.equipmentDesired[2] = true;
+                System.out.println("Whiteboard desired.");
             }
         });
 
-        binding.button6.setOnClickListener(new View.OnClickListener() {
+        binding.button6.setOnClickListener(new View.OnClickListener() { // printers
             @Override
             public void onClick(View view) {
-                //Add your code here
+                idealSpot.equipmentDesired[3] = true;
+                System.out.println("Printer desired.");
             }
         });
     }
