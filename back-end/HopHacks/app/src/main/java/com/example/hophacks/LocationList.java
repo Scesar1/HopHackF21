@@ -1,5 +1,7 @@
 package com.example.hophacks;
 
+import androidx.annotation.NonNull;
+
 public class LocationList {
     public static void main(String[] args) {
 
@@ -91,7 +93,7 @@ public class LocationList {
 
     }
 
-    private static void printStudySpots(StudySpot[] spots) {
+    private static void printStudySpots(@NonNull StudySpot[] spots) {
         for (StudySpot s : spots) {
             System.out.println(s);
         }
