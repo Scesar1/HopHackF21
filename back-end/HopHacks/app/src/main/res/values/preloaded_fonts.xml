@@ -2,7 +2,10 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/baloo_bhai</item>
+        <item>@font/boogaloo</item>
         <item>@font/chela_one</item>
+        <item>@font/chewy</item>
+        <item>@font/coiny</item>
         <item>@font/germania_one</item>
         <item>@font/slackey</item>
         <item>@font/viga</item>

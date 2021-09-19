@@ -9,50 +9,127 @@
     android:backgroundTintMode="src_atop"
     tools:context=".SecondFragment" >
 
-    <TableRow
-        android:layout_width="408dp"
-        android:layout_height="150dp"
-        app:constraint_referenced_tags="0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0"
-        tools:layout_editor_absoluteX="-13dp"
-        tools:layout_editor_absoluteY="120dp">
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100"
+        android:layout_height="100"
+        android:background="#00FFFFFF"
+        android:src="@drawable/silent_icon"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="128dp" />
 
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="141dp"
-            android:layout_height="wrap_content"
-            android:background="#00FFFFFF"
-            android:src="@drawable/silent_icon" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="110"
+        android:layout_height="100"
+        android:background="#00FFFFFF"
+        android:src="@drawable/loud_icon"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="246dp" />
 
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="138dp"
-            android:layout_height="128dp"
-            android:background="#00FFFFFF"
-            android:src="@drawable/quiet_icon" />
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="100"
+        android:layout_height="100"
+        android:background="#00FFFFFF"
+        android:src="@drawable/medium_icon"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="246dp" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="138dp"
-            android:layout_height="wrap_content"
-            android:background="#00FFFFFF"
-            android:src="@drawable/loud_icon" />
-    </TableRow>
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100"
+        android:background="#00FFFFFF"
+        android:src="@drawable/quiet_icon"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="128dp" />
 
     <ImageView
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416"
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
+        android:layout_width="419dp"
+        android:layout_height="236dp"
+        android:src="@drawable/pic3"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-56dp" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/brodyatrium"
-        tools:layout_editor_absoluteX="415dp"
-        tools:layout_editor_absoluteY="145dp" />
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="Volume"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Computers"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Whiteboards"
+        android:textSize="34"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Printers/Copiers"
+        android:textSize="34"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="218dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Projectors"
+        android:textSize="34"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="178dp"
+        android:src="@drawable/textbg_readingroom"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="357dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="Equipment"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
