@@ -18,7 +18,7 @@ public class FragmentQuestion1 extends Fragment {
     int desiredVolume;
 
     private FragmentQuestion1Binding binding;
-    Findr finderScore = new Findr();
+    Findr idealSpot = new Findr();
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -39,8 +39,8 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 0;
-                finderScore.updateScore(desiredVolume);
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! = " + desiredVolume);
             }
         });
 
@@ -48,8 +48,8 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 1;
-                finderScore.updateScore(desiredVolume);
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! = " + desiredVolume);
             }
         });
 
@@ -57,16 +57,16 @@ public class FragmentQuestion1 extends Fragment {
             @Override
             public void onClick(View view) {
                 desiredVolume = 2;
-                finderScore.updateScore(desiredVolume);
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! = " + desiredVolume);
             }
         });
         binding.imageButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 desiredVolume = 3;
-                finderScore.updateScore(desiredVolume);
-                System.out.println("poke!");
+                idealSpot.setDesiredVolume(desiredVolume);
+                System.out.println("poke! = " + desiredVolume);
             }
         });
     }
