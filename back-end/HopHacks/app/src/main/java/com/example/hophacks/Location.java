@@ -8,7 +8,8 @@ public class Location {
     protected boolean foodSold;
     protected int hygiene;
     protected int seating;
-    protected boolean openNow;
+    protected int openTime;
+    protected int closingTime;
     protected int privacy;
     protected boolean vendingFood;
     protected boolean rsvp;
@@ -16,7 +17,7 @@ public class Location {
 
 
     public Location(String name, boolean jCardReq, boolean foodAllowed, boolean foodSold,
-                    int hygiene, int seating, boolean openNow, int privacy,
+                    int hygiene, int seating, int openTime, int closingTime, int privacy,
                     boolean vendingFood, boolean rsvp, int volume) {
         this.setName(name);
         this.setjCardReq(jCardReq);
@@ -24,7 +25,8 @@ public class Location {
         this.setFoodSold(foodSold);
         this.setHygiene(hygiene);
         this.setSeating(seating);
-        this.setOpenNow(openNow);
+        this.setOpenTime(openTime);
+        this.setClosingTime(closingTime);
         this.setPrivacy(privacy);
         this.setVendingFood(vendingFood);
         this.setRsvp(rsvp);
@@ -85,12 +87,20 @@ public class Location {
         this.seating = seating;
     }
 
-    public boolean isOpenNow() {
-        return openNow;
+    public int getOpenTime() {
+        return openTime;
     }
 
-    public void setOpenNow(boolean openNow) {
-        this.openNow = openNow;
+    public void setOpenTime(int openTime) {
+        this.openTime = openTime;
+    }
+
+    public int getClosingTime() {
+        return closingTime;
+    }
+
+    public void setClosingTime(int closingTime) {
+        this.closingTime = closingTime;
     }
 
     public int getPrivacy() {
