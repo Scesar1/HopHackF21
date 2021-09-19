@@ -11,5 +11,6 @@ public class LocationList {
             100,true, 0, false,
             false, 2, 100, false, false, equipment);
 
+    StudySpot mseALevel;
 
 }
