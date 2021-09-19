@@ -13,6 +13,7 @@ public class Location {
     protected boolean vendingFood;
     protected boolean rsvp;
     protected int volume;
+    protected int capacity;
 
     /*
     public Location() {
@@ -22,7 +23,7 @@ public class Location {
 
     public Location(String name, boolean jCardReq, boolean foodAllowed, boolean foodSold,
                     int hygiene, int seating, boolean openNow, int privacy,
-                    boolean vendingFood, boolean rsvp, int volume) {
+                    boolean vendingFood, boolean rsvp, int volume, int capacity) {
         this.setName(name);
         this.setjCardReq(jCardReq);
         this.setFoodAllowed(foodAllowed);
@@ -128,5 +129,13 @@ public class Location {
 
     public void setVolume(int volume) {
         this.volume = volume;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 }
