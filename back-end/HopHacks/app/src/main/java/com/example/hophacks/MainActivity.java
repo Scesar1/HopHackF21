@@ -59,37 +59,37 @@ public class MainActivity extends AppCompatActivity {
         if (bestMatch.getName().equals("Brody Atrium")) {
             viewPagerAdapter.add(new fragment4(), "Page 4");
         }
-        if(bestMatch.getName().equals("Brody Reading Room")) {
+        if (bestMatch.getName().equals("Brody Reading Room")) {
             viewPagerAdapter.add(new fragment5(), "Page 4");
         }
-        if (brodyTerrace) {
+        if (bestMatch.getName().equals("Brody Terrace")) {
             viewPagerAdapter.add(new fragment6(), "Page 4");
         }
-        if (hutReadingRoom) {
+        if (bestMatch.getName().equals("Hutzler Reading Room")) {
             viewPagerAdapter.add(new fragment7(), "Page 4");
         }
-        if (leveringLounge) {
+        if (bestMatch.getName().equals("Levering Lounge")) {
             viewPagerAdapter.add(new fragment8(), "Page 4");
         }
-        if (mseALevel) {
+        if (bestMatch.getName().equals("MSE A-Level")) {
             viewPagerAdapter.add(new fragment9(), "Page 4");
         }
-        if (mseBLevel) {
+        if (bestMatch.getName().equals("MSE B-Level")) {
             viewPagerAdapter.add(new fragment10(), "Page 4");
         }
-        if (mseCLevel) {
+        if (bestMatch.getName().equals("MSE C-Level")) {
             viewPagerAdapter.add(new fragment11(), "Page 4");
         }
-        if (mseDLevel) {
+        if (bestMatch.getName().equals("MSE D-Level")) {
             viewPagerAdapter.add(new fragment12(), "Page 4");
         }
-        if (mseStudyRooms) {
+        if (bestMatch.getName().equals("MSE Study Rooms")) {
             viewPagerAdapter.add(new fragment13(), "Page 4");
         }
-        if (mseMLevel) {
+        if (bestMatch.getName().equals("MSE M-Level")) {
             viewPagerAdapter.add(new fragment14(), "Page 4");
         }
-        if (muddAtrium) {
+        if (bestMatch.getName().equals("Mudd Atrium")) {
             viewPagerAdapter.add(new fragment15(), "Page 4");
         }
         if (bestMatch.getName().equals("Visualization Studio")) {
