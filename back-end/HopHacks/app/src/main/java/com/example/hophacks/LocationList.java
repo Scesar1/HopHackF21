@@ -81,6 +81,8 @@ public class LocationList {
     3,true, 1, false, true, 0, 50, false,
             false, noEquipment);
 
+    StudySpot[] studySpotsList = new StudySpot[17];
+    
     public void printStudySpots() {
         for (StudySpot s : studySpotsList) {
             System.out.println(s);
