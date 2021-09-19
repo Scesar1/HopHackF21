@@ -133,12 +133,6 @@ public class Findr extends LocationList {
 
     public StudySpot[] rankSpots() {
 
-        StudySpot match1; //best match
-        StudySpot match2;
-        StudySpot match3;
-        StudySpot match4;
-        StudySpot match5;
-
         double[] ranks = new double[studySpotsList.length];
 
         for (int i = 0; i < ranks.length; i++) {
@@ -170,4 +164,6 @@ public class Findr extends LocationList {
 
         return top5;
     }
+
+
 }

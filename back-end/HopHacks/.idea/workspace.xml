@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="equipment buttons assigned">
+    <list default="true" id="ef2193e5-6066-433e-ad94-fdd9e7089909" name="Default Changelist" comment="do you want food? buttons assigned">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/MAIN_FINDR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/Findr.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/Findr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hophacks/FragmentQuestion3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632051063587</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="do you want food? buttons assigned">
+      <created>1632051200565</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632051200565</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +424,8 @@
     <MESSAGE value="finished attributes for LocationList" />
     <MESSAGE value="ireland done" />
     <MESSAGE value="equipment buttons assigned" />
-    <option name="LAST_COMMIT_MESSAGE" value="equipment buttons assigned" />
+    <MESSAGE value="do you want food? buttons assigned" />
+    <option name="LAST_COMMIT_MESSAGE" value="do you want food? buttons assigned" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HopHacks$LocationList.ic" NAME="LocationList Coverage Results" MODIFIED="1632019629682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  * Use the {@link FragmentQuestion3#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentQuestion3 extends Fragment {
+public class FragmentQuestion3 extends FragmentQuestion2 {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

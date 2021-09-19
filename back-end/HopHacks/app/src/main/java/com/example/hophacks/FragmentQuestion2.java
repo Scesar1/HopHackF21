@@ -16,12 +16,12 @@ import com.example.hophacks.databinding.FragmentQuestion1Binding;
 import com.example.hophacks.databinding.FragmentQuestion2Binding;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
-public class FragmentQuestion2 extends Fragment {
+public class FragmentQuestion2 extends FragmentQuestion1 {
     int desiredVolume;
 
 
     private @NonNull FragmentQuestion2Binding binding;
-    Findr idealSpot = new Findr();
+    //Findr idealSpot = new Findr();
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
