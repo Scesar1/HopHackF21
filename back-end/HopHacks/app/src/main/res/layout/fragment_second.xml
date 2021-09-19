@@ -1,238 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:fillViewport="true">
-    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EEF8"
+    android:backgroundTint="#004F7CAC"
+    android:backgroundTintMode="src_atop"
+    tools:context=".SecondFragment">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="146dp"
+        android:layout_height="98dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/quiet"
+        android:src="@drawable/silent_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/low_volume"
+        android:src="@drawable/loud_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="132dp"
+        android:layout_height="100dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/medium"
+        android:src="@drawable/medium_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="151dp"
+        android:layout_height="95dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/louder"
+        android:src="@drawable/quiet_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="413dp"
+        android:layout_height="142dp"
+        android:contentDescription="@string/brody"
+        android:src="@drawable/pic3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:background="#E2EEF8"
-        android:backgroundTint="#004F7CAC"
-        android:backgroundTintMode="src_atop"
-        tools:context=".SecondFragment">
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="416dp"
-            android:layout_height="96dp"
-            android:fontFamily="@font/baloo_bhai"
-            android:shadowColor="#000000"
-            android:shadowDx="5"
-            android:shadowDy="5"
-            android:shadowRadius="25"
-            android:text="@string/equipment"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="70sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.515"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.227" />
+        android:contentDescription="@string/readingroom"
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="@string/volume"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
 
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="146dp"
-            android:layout_height="98dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="@string/quiet"
-            android:src="@drawable/silent_icon"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.067"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.079" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/computers"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
 
-        <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="147dp"
-                android:layout_height="102dp"
-                android:background="#00FFFFFF"
-                android:contentDescription="@string/low_volume"
-                android:src="@drawable/loud_icon"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.915"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.148" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/whiteboards"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="151dp"
-            android:layout_height="95dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="@string/medium"
-            android:src="@drawable/medium_icon"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.068"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.148" />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="347dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/printers"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
 
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="151dp"
-            android:layout_height="95dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="@string/louder"
-            android:src="@drawable/quiet_icon"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.931"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.08" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/projectors"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="413dp"
-            android:layout_height="142dp"
-            android:contentDescription="@string/brody"
-            android:src="@drawable/pic3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="426dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/readingroom"
+        android:src="@drawable/textbg_readingroom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/readingroom"
-            android:fontFamily="@font/baloo_bhai"
-            android:shadowColor="#000000"
-            android:shadowDx="5"
-            android:shadowDy="5"
-            android:shadowRadius="25"
-            android:text="@string/volume"
-            android:textColor="@color/white"
-            android:textSize="70sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.48"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.009" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="416dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="@string/equipment"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="218dp"
-            android:layout_height="51dp"
-            android:fontFamily="@font/baloo_bhai"
-            android:text="@string/computers"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.096"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.28" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="233dp"
-            android:layout_height="48dp"
-            android:fontFamily="@font/baloo_bhai"
-            android:text="@string/whiteboards"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.106"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.314" />
-
-        <CheckBox
-            android:id="@+id/checkBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/baloo_bhai"
-            android:text="@string/printers"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.166"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.385" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="218dp"
-            android:layout_height="53dp"
-            android:fontFamily="@font/baloo_bhai"
-            android:text="@string/projectors"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.096"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="426dp"
-            android:layout_height="96dp"
-            android:contentDescription="@string/readingroom"
-            android:src="@drawable/textbg_readingroom"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.93"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.227" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="416dp"
-            android:layout_height="96dp"
-            android:fontFamily="@font/baloo_bhai"
-            android:shadowColor="#000000"
-            android:shadowDx="5"
-            android:shadowDy="5"
-            android:shadowRadius="25"
-            android:text="@string/equipment"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="70sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.515"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.227" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="390dp"
-            android:layout_height="90dp"
-            android:src="@drawable/textbg_mudd"
-            tools:layout_editor_absoluteX="-4dp"
-            tools:layout_editor_absoluteY="870dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="392dp"
-            android:layout_height="93dp"
-            android:src="@drawable/textbg_gilman"
-            tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="1119dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

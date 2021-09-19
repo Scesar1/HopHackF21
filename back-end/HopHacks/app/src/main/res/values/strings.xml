@@ -22,4 +22,8 @@
     <string name="projectors">Projectors</string>
     <string name="logo">logo</string>
     <string name="equipment">Equipment</string>
+    <string name="food">Food</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="refood">Do you want to eat there?</string>
 </resources>

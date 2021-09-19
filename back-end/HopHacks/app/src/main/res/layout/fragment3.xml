@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EEF8"
+    android:backgroundTint="#004F7CAC"
+    android:backgroundTintMode="src_atop"
+    tools:context=".fragment3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="419dp"
+        android:layout_height="108dp"
+        android:src="@drawable/textbg_mudd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/readingroom"
+        android:fontFamily="@font/baloo_bhai"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="25"
+        android:text="@string/food"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio_pirates"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/yes"
+            android:textColor="@color/blue"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_ninjas"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/no"
+            android:textColor="@color/blue"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193"
+        tools:text="@string/refood" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
